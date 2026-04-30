@@ -27,6 +27,10 @@ A professional, high-performance pneumatic part cooling system designed for the 
 > **Alpha Release**
 > This project is currently in the **Alpha phase** of development. Please expect ongoing changes, updates, and improvements to the designs and documentation as the system evolves.
 
+> [!TIP]
+> **Looking for a Compatible Toolhead?**<br>
+> *If you're interested in this project, check out the **[Alembic Toolhead](https://github.com/Alchemical-3D/Alembic)** project! It is a lightweight, high-performance toolhead designed for the Alchemical-3D ecosystem to utilize Pneuma's remote compressed air architecture.*
+
 ## 🌪️ System Capabilities & Benefits
 
 Pneuma provides an alternative approach to part cooling by relocating airflow generation away from the toolhead. By utilizing remote vacuum pumps and pneumatic tubing, Pneuma offers several distinct advantages:
