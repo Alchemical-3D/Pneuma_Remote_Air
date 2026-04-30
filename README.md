@@ -29,7 +29,7 @@ A professional, high-performance pneumatic part cooling system designed for the 
 
 > [!TIP]
 > **Looking for a Compatible Toolhead?**<br>
-> *If you're interested in this project, check out the **[Alembic Toolhead](https://github.com/Alchemical-3D/Alembic)** project! It is a lightweight, high-performance toolhead designed for the Alchemical-3D ecosystem to utilize Pneuma's remote compressed air architecture.*
+> *If you're interested in this project, check out the **[Alembic Toolhead](https://github.com/Alchemical-3D/Alembic_Toolhead)** project! It is a lightweight, high-performance toolhead designed for the Alchemical-3D ecosystem to utilize Pneuma's remote compressed air architecture.*
 
 ## 🌪️ System Capabilities & Benefits
 
