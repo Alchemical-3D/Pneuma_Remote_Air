@@ -6,7 +6,7 @@ This list contains all the 3D-printed and physical hardware required to assemble
 > **Affiliate Links**
 > Alchemical-3D has affiliate status with most of the links below. Purchases using these links helps fund the project at no cost to you!  Some of these links even provide a discount off the retail price.
 
-> [!CRITICAL]
+> [!CAUTION]
 > **Valve Selection**
 > If you choose to configure your Pneuma with a solenoid valve, it is critical that it is **direct acting** or **vacuum acting**. Pressure-acting valves will not function correctly in this vacuum-based system. Some double solenoid valves are able to fully function as long as the core is shared between solenoids.   Please ask on our [Discord](https://discord.gg/r97kK5B7B7) if you are unsure about a specific valve. 
 
