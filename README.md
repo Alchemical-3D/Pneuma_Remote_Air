@@ -11,9 +11,9 @@
 A professional, high-performance pneumatic part cooling system designed for the Alchemical-3D ecosystem. Pneuma utilizes vacuum pump(s) and pneumatic tubes to deliver highly precise, compressed air cooling to toolheads such as the Alembic.
 
 <p align="center">
-  <img src="Images/placeholder.png" width="45%" alt="Pneuma Image 1" />
+  <img src="Images/Assembly/Pneuma_Complete_Ext.png" width="45%" alt="Pneuma Image 1" />
   &nbsp;
-  <img src="Images/placeholder.png" width="45%" alt="Pneuma Image 2" />
+  <img src="Images/Assembly/Pneuma_Complete_Table.png" width="45%" alt="Pneuma Image 2" />
 </p>
 
 **[Bill of Materials](BOM.md)** &nbsp;•&nbsp; **[Assembly Guide](Assembly_Guide.md)** &nbsp;•&nbsp; **[Print Settings](Print_Settings.md)**
