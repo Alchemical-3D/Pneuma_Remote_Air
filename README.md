@@ -8,6 +8,10 @@
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-A3DP-orange)](#)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE.md)
 
+> [!IMPORTANT]
+> **NOTICE**
+> Recent discoveries will be forcing a rapid change to this published version, where it will be moving to a slightly different BOM and assembly guide.  This will include a new version that DOES NOT include the direct acting valve any longer.  Please refrain from acquiring that valve if you intend to update, as it will no longer be used.
+
 A professional, high-performance pneumatic part cooling system designed for the Alchemical-3D ecosystem. Pneuma utilizes vacuum pump(s) and pneumatic tubes to deliver highly precise, compressed air cooling to toolheads such as the Alembic.
 
 <p align="center">
