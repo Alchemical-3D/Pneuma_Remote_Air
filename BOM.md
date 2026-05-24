@@ -57,7 +57,7 @@ Print these out using the guidelines specified in the [Print Settings](Print_Set
 
 | Item | Qty | Description |
 | --- | :---: | --- |
-| **[Vacuum Pump(s)](https://amzn.to/4ubXFnG)** | 1 | This link is for the version of the pump that is currently installed in the alpha.  |
+| **[Vacuum Pump(s)](https://amzn.to/4ubXFnG)** | 1 or 2 | This link is for the version of the pump that is currently installed in the alpha.  |
 | **[Solenoid Valve 3-Way Vacuum Direct Acting](https://amzn.to/3Qx0UXL)** | 1 | Optional, required for air temperature control. |
 | **[20AWG High-Temp FEP Wire](https://kb-3d.com/store/wiring-connectors/5530-9177-3do-high-temperature-motion-rated-tc-fep-wire-multiple-sizes-colors.html?affp=6182#/color-black/wiregauge-20awg)** | As Needed | 20AWG, depends on pump current requirements, link is excellent option. |
 | **[5-PIN Single Row Molex Micro-Fit 3.0](https://amzn.to/3ODzcbj)** | 1 Each | Male/Female Connectors, pins not included |
