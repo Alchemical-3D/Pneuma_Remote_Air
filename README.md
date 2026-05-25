@@ -12,7 +12,7 @@
 > **Dual-Pump Architecture**
 > Pneuma has recently been upgraded to a dual-pump system (removing the previous direct-acting solenoid valve). This allows for independent, granular control over ambient room air and warm internal chamber air.
 
-A professional, high-performance pneumatic part cooling system designed for the Alchemical-3D ecosystem. Pneuma utilizes vacuum pump(s) and pneumatic tubes to deliver highly precise, compressed air cooling to toolheads such as the Alembic.
+A professional, high-performance pneumatic part cooling system designed for the Alchemical-3D ecosystem. Pneuma utilizes vacuum pump(s) and tubes to deliver highly precise, compressed air cooling to toolheads such as the Alembic.
 
 <p align="center">
   <img src="Images/Assembly/Pneuma_Complete_Ext.png" width="45%" alt="Pneuma Image 1" />
