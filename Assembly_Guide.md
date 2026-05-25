@@ -2,6 +2,10 @@
 
 Welcome to the assembly guide for the Pneuma Part Cooling system.
 
+> [!NOTE]
+> **Dual-Pump Architecture**
+> Pneuma has recently been upgraded to a dual-pump system (removing the previous direct-acting solenoid valve). This allows for independent, granular control over ambient room air and warm internal chamber air.  It also means this assembly guide has changed, but the core principals remain.  This will be updated at a later date.
+
 ## Tools Required
 - Hex keys
 - Flush cutters
