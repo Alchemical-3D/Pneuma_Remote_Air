@@ -28,7 +28,7 @@ Print these out using the guidelines specified in the [Print Settings](Print_Set
 | `Rear_Cover.stl` | 1 | Rear Cover | ABS/ASA | Primary |
 | `Front_Cover.stl` | 1 | Front Cover | ABS/ASA | Primary |
 | `Logo_Detail.stl` | 2 | Logo Detail | ABS/ASA | Accent |
-| `Pump_Mount(s).stl` | 1 | Pump Mount | ABS/ASA | Primary |
+| `Pump_Mount(s).stl` | 2 | Pump Mount | ABS/ASA | Primary |
 | `Tube_Grommet.stl` | 3 | Tube Grommet | TPU | Any |
 | `Plug_Grommet.stl` | 3 | Plug Grommet | TPU | Any |
 | `Table_Mount.stl` | 2 | Optional Table Mount | TPU | Any |
