@@ -20,9 +20,19 @@ A professional, high-performance pneumatic part cooling system designed for the 
   <img src="Images/Assembly/Pneuma_Complete_Table.png" width="45%" alt="Pneuma Image 2" />
 </p>
 
-**[Bill of Materials](BOM.md)** &nbsp;•&nbsp; **[Assembly Guide](Assembly_Guide.md)** &nbsp;•&nbsp; **[Print Settings](Print_Settings.md)**
-
 </div>
+
+<br>
+
+## 📚 Documentation Index
+
+Everything you need to set up and configure the Pneuma system:
+
+| Category | Description |
+| :--- | :--- |
+| 📋 **[Bill of Materials (BOM)](BOM.md)** | The comprehensive checklist of printed parts, pumps, tubing, and hardware needed. |
+| 🛠️ **[Assembly Guide](Assembly_Guide.md)** | A step-by-step mastercloth for putting the Pneuma system together. |
+| ⚙️ **[Print Settings](Print_Settings.md)** | Essential slicer configurations, material recommendations, and orientation rules for the enclosures. |
 
 <br>
 
@@ -58,15 +68,30 @@ Pneuma provides an alternative approach to part cooling by relocating airflow ge
 
 ---
 
-## 📚 Documentation Index
+## 🎛️ Firmware & Control
 
-Everything you need to set up and configure the Pneuma system:
+Pneuma relies on a custom Klipper macro to intelligently route standard part cooling commands to the correct pump. This allows you to retain all native slicer cooling behaviors while utilizing dual air sources.
 
-| Category | Description |
-| :--- | :--- |
-| 📋 **[Bill of Materials (BOM)](BOM.md)** | The comprehensive checklist of printed parts, pumps, tubing, and hardware needed. |
-| 🛠️ **[Assembly Guide](Assembly_Guide.md)** | A step-by-step mastercloth for putting the Pneuma system together. |
-| ⚙️ **[Print Settings](Print_Settings.md)** | Essential slicer configurations, material recommendations, and orientation rules for the enclosures. |
+### Klipper Configuration
+The required configuration file can be found here: **[Pneuma_Control.cfg](Firmware/Pneuma_Control.cfg)**
+
+1. **Install:** Place the `Pneuma_Control.cfg` file in your Klipper configuration directory and `[include]` it in your `printer.cfg`.
+2. **Assign Pins:** Open the file and assign the correct MCU pins for your Cool Pump and Warm Pump. 
+3. **Remove Old Fans:** Ensure you comment out or delete your default `[fan]` component in `printer.cfg` to prevent conflicts.
+
+### How to Use
+The system intercepts standard `M106` (fan on) and `M107` (fan off) commands. You can dynamically switch which pump receives these commands using the `SET_PNEUMA_MODE` macro.
+
+**Available Modes:**
+- `MODE=COOL` : Routes all cooling commands to the dedicated external cool air pump. Ideal for PLA, PETG, and materials needing maximum thermal extraction.
+- `MODE=WARM` : Routes all cooling commands to the internal chamber pump. Ideal for ABS, ASA, and materials sensitive to drafts or warping.
+- `MODE=DUAL` : Spins up *both* pumps simultaneously when cooling is requested. Reserved for extreme airflow needs.
+- `MODE=OFF` : Completely disables part cooling routing to both pumps, ignoring slicer commands until a new mode is set.
+
+**Implementation Examples:**
+- **Via Slicer:** Add `SET_PNEUMA_MODE MODE=WARM` to your filament start G-code for ABS/ASA, or `MODE=COOL` for PLA.
+- **Via Console:** Type `SET_PNEUMA_MODE MODE=DUAL` in the Klipper terminal for a quick override.
+- **Automatic Routing:** When the slicer requests cooling (e.g., `M106 S255`), Klipper will automatically send the PWM signal only to the active pump(s). If you change modes mid-print, the current fan speed is immediately routed to the new pump!
 
 ***
 
