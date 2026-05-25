@@ -8,9 +8,9 @@
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-A3DP-orange)](#)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE.md)
 
-> [!IMPORTANT]
-> **NOTICE**
-> Recent discoveries will be forcing a rapid change to this published version, where it will be moving to a slightly different BOM and assembly guide.  This will include a new version that DOES NOT include the direct acting valve any longer.  Please refrain from acquiring that valve if you intend to update, as it will no longer be used.
+> [!NOTE]
+> **Dual-Pump Architecture**
+> Pneuma has recently been upgraded to a dual-pump system (removing the previous direct-acting solenoid valve). This allows for independent, granular control over ambient room air and warm internal chamber air.
 
 A professional, high-performance pneumatic part cooling system designed for the Alchemical-3D ecosystem. Pneuma utilizes vacuum pump(s) and pneumatic tubes to deliver highly precise, compressed air cooling to toolheads such as the Alembic.
 
@@ -40,7 +40,8 @@ A professional, high-performance pneumatic part cooling system designed for the 
 Pneuma provides an alternative approach to part cooling by relocating airflow generation away from the toolhead. By utilizing remote vacuum pumps and pneumatic tubing, Pneuma offers several distinct advantages:
 
 - **Targeted Cooling:** By replacing wide-area blowers with focused, high-velocity air at the nozzle exit, Pneuma and a compatible toolhead will help improve overhangs and fine details.
-- **Air Source Control:** When paired with Klipper and solenoid valves, users can dynamically select their air source—switching between ambient room air or internal chamber air, or even toggling carbon filtering.  This provides extensive options for makers to best suit their needs.
+- **Air Source Control:** When paired with Klipper, users can dynamically select their air source—switching between ambient room air or warm internal chamber air. Pneuma utilizes dual dedicated pumps for this, providing extensive and reliable options for makers to best suit their needs.
+- **Smart Macro Integration:** Pneuma uses custom Klipper macros to seamlessly intercept standard part cooling commands (`M106`/`M107`). The system can be commanded manually through the Klipper interface, or entirely through your slicer's standard G-code by embedding a simple mode toggle in your filament profiles.
 - **Lightweight Toolheads:** Due to removing the typical 4010 or 5015 blowers, toolheads like the [Alembic](https://github.com/Alchemical-3D/Alembic_Toolhead) shed mass, directly benefiting mechanical properties during operation such as acceleration and jerk.
 - **Noise Mitigation:** Pneuma utilizes carefully selected, enclosed pumps (similar to premium aquarium & medical equipment) designed to run quieter than typical "Berd Air" or unshielded pressurized air setups, and when configured properly, can be quieter than the fans themselves.
 - **Enhanced Visibility:** Removing bulky fans provides a clearer, less obstructed view of the extrusion process, aiding in visual or camera-based print monitoring.
